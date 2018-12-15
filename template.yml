@@ -26,6 +26,7 @@ Resources:
   HelloWorld:
     Type: AWS::Serverless::Function
     Properties:
+      CodeUri: .debug/
       Handler: index.handler
       Runtime: python3.6
       Role:
